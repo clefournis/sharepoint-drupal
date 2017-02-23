@@ -276,7 +276,7 @@ class DrupalRest
 }
 
 
-$request = new DrupalRest('http://deltanewshubsandbox.prod.acquia-sites.com/', '/demoapi', 'demouser', 'demouser', 0);
+$request = new DrupalRest('http://example.com/', '/restendpoint', 'user', 'name', 0);
 
 
 print_r($request);
